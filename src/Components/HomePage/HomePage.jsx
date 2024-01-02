@@ -5,7 +5,7 @@ import "./HomePage.scss";
 const HomePage = () => {
   return (
     <section className="home-page">
-      <p>Es-tu prêt à mettre tes connaissances bibliques à l'épreuve ?</p>
+      <p>Es-tu prêt à mettre tes connaissances à l'épreuve ?</p>
       <p>
         Donne un maximum de bonnes réponses et porte ton équipe jusqu'en finale
         !
