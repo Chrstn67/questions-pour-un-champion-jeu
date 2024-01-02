@@ -1,0 +1,13 @@
+.max-suite-container {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2fr;
+  grid-template-areas: "questions-section" "score-section";
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-areas: "questions-section" "score-section";
+    justify-content: center;
+  }
+}

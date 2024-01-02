@@ -1,0 +1,31 @@
+.title {
+  text-align: center;
+  margin: 1rem;
+
+  h2 {
+    margin: 1em;
+  }
+}
+
+.masterduel-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  @media screen and (min-width: 40em) {
+    flex-direction: row;
+  }
+
+  .indices-section,
+  .scores-section {
+    flex: 1;
+  }
+
+  .indices-section {
+    order: 1;
+  }
+
+  .scores-section {
+    order: 2;
+  }
+}

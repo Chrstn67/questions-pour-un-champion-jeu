@@ -1,0 +1,26 @@
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #920c24;
+  align-items: center;
+}
+
+.dix-points-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.questions-section,
+.scores-section {
+  flex: 1;
+
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .questions-section,
+  .scores-section {
+    max-width: 100%;
+  }
+}

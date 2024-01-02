@@ -1,0 +1,48 @@
+.masterDuel-commands {
+  p {
+    font-size: 1.3em;
+
+    span {
+      font-size: 1.3em;
+      font-weight: 700;
+      color: #920c24;
+    }
+  }
+}
+
+.indices {
+  p {
+    background-color: #d112354b;
+    text-align: center;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    font-size: 1.3em;
+    font-style: italic;
+  }
+  .reponse {
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 0.5em;
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #920c24, #fff, #17920c94, #920c24);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+}
