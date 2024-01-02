@@ -26,8 +26,9 @@ const Regles = () => {
               avec un minimun d'indices.
             </p>
             <p>
-              A tour de rôle, chaque équipe devra deviner le nom d'un personnage
-              biblique grâce aux indices donnés, en 60 secondes maximum.
+              A tour de rôle, chaque équipe devra deviner le nom d'un
+              personnage, d'un objet, un artiste etc... grâce aux indices
+              donnés, en 60 secondes maximum.
             </p>
             <p>Les indices sont aléatoires.</p>
             <p>Dès le lancement du chrono, un indice sera dévoilé.</p>
