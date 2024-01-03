@@ -19,7 +19,7 @@ const DixPoints = () => {
         </section>
         <section className="scores-section">
           <Scores />{" "}
-          <Link to="/max-a-la-suite" target="_blank">
+          <Link to="/max-a-la-suite">
             <button className="play-button">Manche 2</button>
           </Link>
         </section>

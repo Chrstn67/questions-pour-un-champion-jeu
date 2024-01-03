@@ -20,7 +20,7 @@ const MaxALaSuite = () => {
         </section>
         <section className="scores-section">
           <Scores />{" "}
-          <Link to="/master-duel" target="_blank">
+          <Link to="/master-duel">
             <button className="play-button">Manche 3</button>
           </Link>
         </section>

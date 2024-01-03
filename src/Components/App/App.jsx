@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Header from "../Header/Header";
 import HomePage from "../HomePage/HomePage";
 import DixPoints from "../DixPoints/DixPoints";
@@ -14,7 +14,7 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <HashRouter>
         <div>
           <Header />
           <Routes>
@@ -26,7 +26,7 @@ function App() {
           </Routes>
           <Footer />
         </div>
-      </BrowserRouter>
+      </HashRouter>
       {/* <ScrollToTopButton /> */}
     </div>
   );
