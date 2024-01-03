@@ -35,7 +35,6 @@ const Questions = () => {
       setShowAnswer(false);
       setTimer(80);
 
-      // Désactiver le thème sélectionné
       setDisabledThemes((prevThemes) => [...prevThemes, theme.id]);
     }
   };
@@ -48,7 +47,6 @@ const Questions = () => {
       !showQuestion &&
       currentQuestionIndex < selectedTheme.questions.length
     ) {
-      // Nettoyer l'intervalle précédent s'il existe
       clearInterval(intervalId);
 
       setShowQuestion(true);
@@ -70,7 +68,6 @@ const Questions = () => {
   };
 
   const nextQuestion = () => {
-    // Nettoyer l'intervalle lorsque toutes les questions ont été posées
     if (currentQuestionIndex + 1 === selectedTheme.questions.length) {
       clearInterval(intervalId);
     }
@@ -79,7 +76,6 @@ const Questions = () => {
     setShowAnswer(false);
 
     if (currentQuestionIndex + 1 === selectedTheme.questions.length) {
-      // Toutes les questions ont été posées
       showAlert();
     }
   };
@@ -89,7 +85,6 @@ const Questions = () => {
     // Nettoyer l'intervalle
     clearInterval(intervalId);
 
-    // Réinitialiser les états pour permettre de sélectionner un nouveau thème
     setSelectedTheme(null);
     setCurrentQuestionIndex(0);
     setShowAnswer(false);
